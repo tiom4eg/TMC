@@ -13,3 +13,8 @@ Launch `python train.py -h` or `python gen.py -h` in shell to see all parameters
 `python train.py --input-dir texts-ru --model ru-big.pkl --width 3`: trains new 3-gram model with .txt files from texts-ru/ and saves it in ru-big.pkl.
 
 `python gen.py --model eng-big.pkl --prefix "hey vsauce michael here" --length 1337`: generates randomized text of length 1337 using model saved as eng-big.pkl and user-provided text.
+
+# Efficiency
+Space complexity of the model - O(2.5 * w * S), where S - size of dataset, w comes from w-gram model.
+
+It takes around 2000-3000 ms to train 2-gram model on 6 MB dataset.
