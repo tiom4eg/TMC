@@ -10,4 +10,5 @@ Launch `python train.py -h` or `python gen.py -h` in shell to see all parameters
 
 # Examples
 `python train.py --input-dir texts-ru --model ru-big.pkl --width 3`: trains new 3-gram model with .txt files from texts-ru/ and saves it in ru-big.pkl.
+
 `python gen.py --model eng-big.pkl --prefix "hey vsauce michael here" --length 1337`: generates randomized text of length 1337 using model saved as eng-big.pkl and user-provided text.
