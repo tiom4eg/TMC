@@ -3,6 +3,7 @@ Randomixed text generation model based on Markov chains.
 
 # Structure
 `train.py` - trains new or existing model on some dataset, consisting of UTF-8 friendly .txt files
+
 `gen.py` - uses already trained models to generate randomized text of specified length from scratch or using user-provided text.
 
 # Usage
